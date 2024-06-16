@@ -1,5 +1,5 @@
 .env
 tools/__pycache__
-bot_bp
-channel_search_bot
+bot_bp.py
+channel_search_bot.py
 /tools
