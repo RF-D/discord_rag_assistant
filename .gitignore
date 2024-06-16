@@ -1,0 +1,5 @@
+.env
+tools/__pycache__
+bot_bp
+channel_search_bot
+/tools
