@@ -21,7 +21,7 @@ vectorstore = PineconeVectorStore.from_existing_index(
     embedding=embeddings, index_name=index_name)
 
 retriever = retriever_tool(vectorstore)
-chat = ChatOpenAI(model = "gpt-4o",temperature=0.8)
+chat = ChatOpenAI(model = "gpt-4o-mini",temperature=0.8)
 
 prompt_template = """You are a helpful Discord bot that helps users with programming and answers about the channel.
 
